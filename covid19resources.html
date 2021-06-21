@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Resources</title>
+    <style>
+        .banner{
+                 width: 100%;
+                 max-height: max-content;
+                 background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("covid19resources.jpg");
+                 background-size: cover;
+                 background-position: center;
+                }
+        .navbar ul li {
+                 list-style: none;
+                 display: inline-block;
+                 margin: 0 20px;
+                 position: relative;
+                }
+.navbar ul li {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: right;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover:after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+                h1{
+                    color: white;
+                    text-align: center;
+                    font-size: 24px;
+                }
+                h3{
+                    color: white;
+                    text-align: center;
+                    font-size: 24px;
+                }
+                p{
+                    color: white;
+                    text-align: center;
+                    font-size: 16px;
+                }
+                ul{
+                    color: whitesmoke;
+                    text-align: center;
+                }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar"><br>
+            <ul>
+                <li><a href="index.html">Go Back to Home Page</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            
+        </div>
+        <div class="content"></div><br><br>
+        <h1>Covid-19 Resources</h1><br>
+        <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.<br>
+            Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.<br><br>
+            <h3>HOW IT SPREADS</h3><br>
+            <p>The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or exhales.<br>
+                 These droplets are too heavy to hang in the air, and quickly fall on floors or surfaces.<br>
+                You can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth.
+            </p><br>
+            <h3>Most common symptoms:</h3>
+            <ul>fever</ul>
+            <ul>dry cough</ul>
+            <ul>tiredness</ul>
+            <ul>aches and pains</ul>
+            <ul>sore throat</ul>
+            <ul>diarrhoea</ul>
+            <ul>conjunctivitis</ul>
+            <ul>headache</ul>
+            <ul>loss of taste or smell</ul>
+            <ul>a rash on skin, or discolouration of fingers or toes</ul>
+     
+        </p>
+        
+    </div>
+
+</body>
+</html>
